@@ -1,0 +1,16 @@
+# Criando uma aplicação totalmente limpa
+ 
+# Instala a dependencia explo-cli
+npm install -g explo-cli
+ 
+# Cria a aplicação nova
+npx create-expo-app app_react-native_tii06 --template blank
+ 
+# instalar o typeScript
+npm install --save-dev typescript @types/react @types/react-native
+ 
+# Start da aplicação isso dentro da pasta do projeto
+npm start
+# ou
+npx expo start
+ 
